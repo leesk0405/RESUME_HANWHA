@@ -148,6 +148,7 @@ header nav .gnb li:last-child {
   padding-bottom: 16px;
   width: 100%;
   font-size: 1.625rem;
+  color: rgb(62,43,44);
   /* font-size: 26px; */
 }
 .banner .main_title .title_1 span{
@@ -178,6 +179,7 @@ header nav .gnb li:last-child {
 .title {
   font-size:2rem;
   margin-bottom: 16px;
+  color: rgb(62,43,44);
 }
 .row1 {
   padding: 16px;
@@ -189,7 +191,8 @@ header nav .gnb li:last-child {
 .row1 .con{}
 .row1 .con .item{
   padding: 12px;
-  background-color: #f2f2f2;
+  /* background-color: rgb(241, 227, 196); */
+  background-color: #f1e3c4;
   border-radius: 4px;
   margin-bottom: 20px;
   color: #333;
@@ -230,7 +233,8 @@ header nav .gnb li:last-child {
   width: calc(25% - 16px );
   aspect-ratio: 1/1;
   margin-bottom: 32px;
-  background-color: #f2f2f2;
+  /* background-color: rgb(241, 227, 196); */
+  background-color: #f1e3c4;
   border-radius: 8px;
   display: flex;
   height: 100%;
@@ -427,7 +431,7 @@ header nav .gnb li:last-child {
 }
 
 footer {
-  background-color: #000;
+  background-color: rgb(62,43,44);
   color: #fff;
 }
 footer .foot_inner {

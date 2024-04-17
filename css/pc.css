@@ -80,7 +80,8 @@
     display: flex;
     justify-content: space-between;
     white-space: nowrap;
-    background-color: #f2f2f2;
+    /* background-color: rgb(241, 227, 196); */
+    background-color: #f1e3c4;
     border-radius: 8px;
     padding: 26px;
   }
