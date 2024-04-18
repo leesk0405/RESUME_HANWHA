@@ -1,5 +1,6 @@
 .back {
   width: 100%;
+  opacity: 0.3;
 }
 .back img{
   width: 75%;
@@ -44,7 +45,7 @@ header .nav_btn span {
   display: block;
   width: 28px;
   height: 3px;
-  background-color: #333;
+  background-color: #ff6600;
   border-radius: 5px;
   margin: 0 auto;
   margin-bottom: 6px;
@@ -121,6 +122,7 @@ header nav .gnb li:hover{
 header nav .gnb li{
   margin-bottom: 30px;
   font-size: 1.5rem;/*24*/
+  color: #ff6600;
 } 
 header nav .gnb li:last-child {
   margin: 0;
@@ -148,12 +150,20 @@ header nav .gnb li:last-child {
   padding-bottom: 16px;
   width: 100%;
   font-size: 1.625rem;
-  color: rgb(62,43,44);
+  color: #333;
+
   /* font-size: 26px; */
+}
+.banner .main_title .title_1 .txt .orange {
+  color: #ff6600;
+  background-color: transparent;
+  font-weight: 700;
+  padding: 0;
 }
 .banner .main_title .title_1 span{
   /* font-size: 24px; */
-  background-color: #f2f2f2;
+  background-color: #ff6600;
+  color: #fff;
   font-weight: 600;
   padding: 2px;
 }
@@ -179,7 +189,7 @@ header nav .gnb li:last-child {
 .title {
   font-size:2rem;
   margin-bottom: 16px;
-  color: rgb(62,43,44);
+  color: #ff6600 ;
 }
 .row1 {
   padding: 16px;
@@ -192,7 +202,7 @@ header nav .gnb li:last-child {
 .row1 .con .item{
   padding: 12px;
   /* background-color: rgb(241, 227, 196); */
-  background-color: #f1e3c4;
+  background-color: #fff4ed;
   border-radius: 4px;
   margin-bottom: 20px;
   color: #333;
@@ -207,6 +217,7 @@ header nav .gnb li:last-child {
 .row1 .con .item h4 {
   margin-bottom: 8px;
   font-size: 18px;
+  color: #ff6600;
 }
 .row1 .con .item .sub ul:first-child{
   font-weight: 500;
@@ -234,7 +245,7 @@ header nav .gnb li:last-child {
   aspect-ratio: 1/1;
   margin-bottom: 32px;
   /* background-color: rgb(241, 227, 196); */
-  background-color: #f1e3c4;
+  background-color: #fff4ed;
   border-radius: 8px;
   display: flex;
   height: 100%;
@@ -431,7 +442,7 @@ header nav .gnb li:last-child {
 }
 
 footer {
-  background-color: rgb(62,43,44);
+  background-color: #ff6600;
   color: #fff;
 }
 footer .foot_inner {
